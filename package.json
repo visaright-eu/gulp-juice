@@ -12,9 +12,11 @@
   "scripts": {
     "test": "mocha"
   },
+  "peerDependencies": {
+    "juice": "6.0.0"
+  },
   "dependencies": {
     "gulp-util": "~2.2.14",
-    "juice": "~1.0.0",
     "event-stream": "~3.1.0"
   },
   "keywords": [
